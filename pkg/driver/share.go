@@ -27,7 +27,7 @@ func (c *Pan115Client) GetShareSnap(shareCode, receiveCode, dirID string, Querie
 		"share_code":   shareCode,
 		"receive_code": receiveCode,
 		"cid":          dirID,
-		"limit":        "20",
+		"limit":        "1200",
 		"offset":       "0",
 	}
 
